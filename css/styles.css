@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f8;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    background-color: #fff4e6;
     color: #333;
 }
 
@@ -14,7 +14,7 @@ body {
 /* ENCABEZADO */
 
 header {
-    background-color: #168aad;
+    background-color: #003559;
     color: white;
     text-align: center;
     padding: 30px;
@@ -48,7 +48,7 @@ main {
 .contenedor h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #168aad;
+    color: #003559;
 }
 
 
@@ -78,7 +78,7 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: none;
-    border-color: #168aad;
+    border-color: #003559;
 }
 
 
@@ -99,7 +99,7 @@ textarea:focus {
 button {
     width: 100%;
     padding: 13px;
-    background-color: #168aad;
+    background-color: #003559;
     color: white;
     border: none;
     border-radius: 6px;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-    background-color: #126e89;
+    background-color: #001f38;
 }
 
 
