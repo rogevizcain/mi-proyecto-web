@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda Odontológica</title>
+    <title>Buzón CUC Escucha</title>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,95 +12,64 @@
 <body>
 
     <header>
-        <h1>Clínica Dental Sonrisa</h1>
-        <p>Agenda tu cita odontológica</p>
+        <h1>Buzón CUC Escucha</h1>
+        <p>Tu voz mejora la experiencia en la Universidad de la Costa</p>
     </header>
 
     <main>
 
         <section class="contenedor">
 
-            <h2>Solicitar una cita</h2>
+            <h2>Registrar una sugerencia</h2>
 
             <form>
 
                 <div class="grupo">
                     <label for="nombre">Nombre completo</label>
-                    <input 
-                        type="text" 
-                        id="nombre" 
+                    <input
+                        type="text"
+                        id="nombre"
                         name="nombre"
                         placeholder="Ej. Laura Gómez"
                         required>
                 </div>
 
                 <div class="grupo">
-                    <label for="telefono">Teléfono</label>
-                    <input 
-                        type="tel" 
-                        id="telefono" 
-                        name="telefono"
-                        placeholder="300 123 4567"
-                        required>
-                </div>
-
-                <div class="grupo">
-                    <label for="correo">Correo electrónico</label>
-                    <input 
-                        type="email" 
-                        id="correo" 
+                    <label for="correo">Correo institucional</label>
+                    <input
+                        type="email"
+                        id="correo"
                         name="correo"
-                        placeholder="correo@ejemplo.com"
+                        placeholder="nombre@cuc.edu.co"
                         required>
                 </div>
 
                 <div class="grupo">
-                    <label for="servicio">Tipo de consulta</label>
+                    <label for="categoria">Categoría de la sugerencia</label>
 
-                    <select id="servicio" name="servicio" required>
+                    <select id="categoria" name="categoria" required>
                         <option value="">Seleccione una opción</option>
-                        <option value="valoracion">Valoración general</option>
-                        <option value="limpieza">Limpieza dental</option>
-                        <option value="ortodoncia">Ortodoncia</option>
-                        <option value="blanqueamiento">Blanqueamiento</option>
-                        <option value="urgencia">Urgencia odontológica</option>
+                        <option value="bienestar">Bienestar</option>
+                        <option value="servicios">Servicios</option>
+                        <option value="clases">Clases</option>
+                        <option value="inclusion">Inclusión</option>
+                        <option value="espacios">Espacios</option>
+                        <option value="procesos">Procesos académicos</option>
                     </select>
                 </div>
 
-                <div class="fila">
-
-                    <div class="grupo">
-                        <label for="fecha">Fecha</label>
-                        <input 
-                            type="date" 
-                            id="fecha" 
-                            name="fecha"
-                            required>
-                    </div>
-
-                    <div class="grupo">
-                        <label for="hora">Hora</label>
-                        <input 
-                            type="time" 
-                            id="hora" 
-                            name="hora"
-                            required>
-                    </div>
-
-                </div>
-
                 <div class="grupo">
-                    <label for="mensaje">Observaciones</label>
+                    <label for="mensaje">Sugerencia</label>
 
-                    <textarea 
-                        id="mensaje" 
+                    <textarea
+                        id="mensaje"
                         name="mensaje"
                         rows="4"
-                        placeholder="Escribe alguna información adicional...">
-                    </textarea>
+                        placeholder="Cuéntanos tu idea o sugerencia..."
+                        required></textarea>
                 </div>
 
-                <button type="submit">Agendar cita</button>
+                <button type="submit">Enviar sugerencia</button>
 
             </form>
 
@@ -109,7 +78,7 @@
     </main>
 
     <footer>
-        <p>Clínica Dental Sonrisa | Agenda de citas</p>
+        <p>Universidad de la Costa | Buzón CUC Escucha</p>
     </footer>
 
 </body>
